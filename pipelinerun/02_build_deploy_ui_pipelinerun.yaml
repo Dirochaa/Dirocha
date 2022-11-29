@@ -9,7 +9,7 @@ spec:
   - name: deployment-name
     value: pipelines-vote-ui
   - name: git-url
-    value: https://github.com/Dirochaa/Dirocha.git
+    value: https://github.com/Dirochaa/Dirocha/blob/main/pom.xml
   - name: IMAGE
     value: image-registry.openshift-image-registry.svc:5000/$(context.pipelineRun.namespace)/pipelines-vote-ui
   workspaces:
